@@ -2,3 +2,52 @@
     width: .75em;
     height: .75em;
 }
+
+.index-carousel {
+    margin-bottom: 4rem;
+}
+
+.index-carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+}
+
+.index-carousel-item {
+    height: 32rem;
+}
+
+.index-marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.index-marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+}
+
+.index-featurette-divider {
+    margin: 5rem 0;
+}
+
+.index-featurette-heading {
+    letter-spacing: -.05rem;
+}
+
+@media (min-width: 40em) {
+    .index-carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
+
+    .index-featurette-heading {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 62em) {
+    .index-featurette-heading {
+        margin-top: 7rem;
+    }
+}
